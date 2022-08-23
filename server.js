@@ -1,12 +1,12 @@
 
-const http =require('http');
+const http = require('http');
 
 http
 .createServer((request,response) => {
   response.writeHead(200, { 'Content-Type': 'application/json' });
 
 
-if(request.url === '/produto') {
+if (request.url === "/produto") {
    response.end(
       JSON.stringify({
       message: 'Produto cadastrado com sucesso',

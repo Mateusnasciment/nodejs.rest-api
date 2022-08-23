@@ -4,7 +4,7 @@
   "description": "Primeiro projeto 2022 nodejs",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon server.js"
+    "dev": "nodemon app.js"
   },
   "author": "Mateus nascimento",
   "license": "MIT",

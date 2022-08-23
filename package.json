@@ -1,0 +1,17 @@
+{
+  "name": "iniciando_nodejs",
+  "version": "1.0.0",
+  "description": "Primeiro projeto 2022 nodejs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "author": "Mateus nascimento",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
